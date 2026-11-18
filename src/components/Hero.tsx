@@ -195,7 +195,7 @@ export default function Hero() {
                 <div className="hero-profile-card">
                   <div className="profile-img-container">
                     <img
-                      src="/profile.jpg"
+                      src={`${import.meta.env.BASE_URL}profile.jpg`}
                       alt={personal.name}
                       className="hero-avatar-img"
                       loading="eager"

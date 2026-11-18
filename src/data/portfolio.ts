@@ -11,7 +11,7 @@ export const portfolioData = {
       github: "https://github.com/Gr8Challengers",
       linkedin: "https://www.linkedin.com/in/tushar-dileep-182789349/",
     },
-    resumeLink: "/Tushar_Dileep_Resume.pdf",
+    resumeLink: `${import.meta.env.BASE_URL}Tushar_Dileep_Resume.pdf`,
   },
 
   skills: [
